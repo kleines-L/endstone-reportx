@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone_reportx"
+version = "0.1.1"
+description = "Custom report plugin for Endstone"
+
+[project.entry-points."endstone"]
+reportx = "endstone_reportx:reportx"
